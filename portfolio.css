@@ -1,0 +1,145 @@
+a {
+    text-decoration: none;
+    /*removes underline from anchor tags*/
+    padding: 10px 25px;
+    font-weight: bold;
+    color: white;
+  
+  }
+  
+  nav {
+    text-align: center;
+    float: center;
+    position: fixed;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    /*removes bullet points from unordered lists*/
+/*     display: flex;
+    margin: 0 2px;
+    padding: 0; */
+    }
+  
+  li {
+    display: inline-block;
+    padding: 5px 5px;
+  }
+  
+  .panels {
+    border-bottom: none;
+    color: white;
+    text-align: center;
+  }
+ 
+  body {
+   
+    margin: 0;
+  }
+  
+  .panelHeader {
+    font-size: 2em;
+    
+  }
+  #firstPanel {
+    
+  background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-bottom: 0px solid white;
+    height: 450px;
+    text-align: center;
+    padding-top: 40px; 
+    
+  }
+  
+#firstContentContainer {
+  padding: 60px
+}
+  
+  #navlinkies {
+    color: white;
+    display: flex;
+  }
+  
+  #secondPanel {
+    background-color: black;
+    z-index: -2;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-bottom: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    text-align: center;
+  }
+
+  #secondContentContainer {
+    width: 100%;
+    padding: 3em 20px 19em 20px;
+  }
+#projectTiles{
+  padding-bottom: 10px;
+  padding-top: 52px;
+  display: flex;
+  text-align: center;
+}
+.tiles img {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  display: inline-block;
+}
+  
+  #thirdPanel {
+    background-color: black;
+    display: flex;
+    height: max;
+  }
+  
+  
+  
+  
+  #resumeButton {
+    color: white;
+    background-color: black;
+    width: max;
+  }
+  
+  
+  #fourthPanel {
+    background-image: url(https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    display: flex;
+    height: max;
+  }
+  .fourthPanelTabs {
+    width: 50%;
+  }
+
+
+#fourthPanelImageHolder {
+  display: flex;
+  text-align: center;
+}
+
+#footerPanel{
+  color: lightgrey;
+  background-color: grey;
+  text-align: center;
+  border-bottom:0;
+}
+
+#fourthPanelTextContentOne {
+  display: flex;
+}
+
+#secondTabIconHolder {
+  display: flex;
+}
+
+  
+  
+  
